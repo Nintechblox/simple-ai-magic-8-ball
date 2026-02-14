@@ -25,7 +25,7 @@ if freedommode == "freedom":
 elif freedommode == "Freedom":
     freedomsysprompttext = "You can make up any option you want, no matter what. ONE, TWO OR THREE WORDS ONLY"
 elif freedommode == "no":
-    print("\n \nI guess you don't want it to make up it's own predictions, OK!")
+    print("\n \nI guess you don't want it to make up it's own words, OK!")
     freedomsysprompttext = "you can only respond with Yes, No, Maybe, Definetly Not, Less Likely, Unsure, and 50/50."
 elif freedommode == "No":
     print("\n \nI guess you don't want it to make up it's own predictions, OK!")
@@ -42,4 +42,4 @@ response = client.chat.completions.create(
 # Displays prediction results
 print(f"\n \nPREDITCTION RESULTS: {response.choices[0].message.content}")
 
-
+# NO AI CODE
