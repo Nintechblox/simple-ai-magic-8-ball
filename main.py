@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 
 # Hugging Face API, not tested.
-client = OpenAI(base_url='https://router.huggingface.co/v1', api_key=os.environ["HF_TOKEN"])
+client = OpenAI(base_url='https://router.huggingface.co/v1', api_key=os.environ["HF_TOKEN"], default_headers={"X-use-cache": "false"})
 
 # Gets user prediction request.
 userinput = input("I am the magic 8 ball, ask me something, and I will predict your future!  ")
