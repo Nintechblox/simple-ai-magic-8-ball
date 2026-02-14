@@ -5,3 +5,5 @@
 
 # Libraries required:
 ### Just install openai, that's it!
+
+# NO AI CODE HAS BEEN USED IN THIS CODING, IT HAS ONLY BEEN USED FOR VERY SMALL HELP
